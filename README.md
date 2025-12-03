@@ -30,7 +30,7 @@ Arquivos utilizados para execução do trabalho:
 Arquivo que plota os gráficos a partir das simulações realizadas.
 - `generatecharts.py`
 
-#Como Reproduzir o Experimento:
+# Como Reproduzir o Experimento:
 - Foram usadas 3 Virtual Machines.
 - Cada uma roda um arquivo - proxytcp.c, clientetcp.c, servidortcp.c - simulando uma rede real.
 - Instruções sobre cada arquivo abaixo.
