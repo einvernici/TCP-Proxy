@@ -47,7 +47,7 @@ Aguarda a conexão do cliente, recebe os dados, encaminha para o servidor e toda
 - <msg_size>: tamanho do buffer do proxy
 
 ## clienttcp.c 
-Envia mensagens para um servidor (ou proxy). Gera o .csv *metrics* com as medições da simulação.
+Envia mensagens para um servidor (ou proxy). Gera o .csv *client_metrics* com as medições da simulação.
 **Como utilizar:**
 - compilar o código: `gcc clienttcp.c -o <nome do executável>`
 - executar o programa passado os parametros: `./<nome do executável> <remote_host> <remote_port> <msg_size> <num_msgs>`
