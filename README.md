@@ -64,7 +64,7 @@ Recebe mensagens enviadas.
 - <local_port>: número da porta do proxy
 - <msg_size>: tamanho do buffer do servidor
 
-  ## generatecharts.py
+## generatecharts.py
   Script para plotar os gráficos das medições.
   **Como utilizar:**
   - executar o programa no mesmo local do arquivo *metrics* gerado pelo clienttcp.c e proxytcp.c: `python3 generatecharts.py`
